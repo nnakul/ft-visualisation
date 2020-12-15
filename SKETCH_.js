@@ -91,8 +91,8 @@ function setup()
 	
 	ADJ_H = -47 ;
 	BUTTONS.push( makeButton('Daenerys Targaryen' , [80+ADJ_H,290+ADJ_V] , 'danny') ) ;
-	BUTTONS.push( makeButton('Doll' , [407+ADJ_H,290+ADJ_V] , 'doll') ) ;
-	BUTTONS.push( makeButton('A Unicorn' , [500+ADJ_H,290+ADJ_V] , 'unicorn') ) ;
+	BUTTONS.push( makeButton('A Doll' , [407+ADJ_H,290+ADJ_V] , 'doll') ) ;
+	BUTTONS.push( makeButton('Unicorn' , [500+ADJ_H,290+ADJ_V] , 'unicorn') ) ;
 	BUTTONS.push( makeButton('Family' , [679+ADJ_H,290+ADJ_V] , 'family') ) ;
 	
 	ADJ_H = 18 ;
