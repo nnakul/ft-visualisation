@@ -92,7 +92,7 @@ function setup()
 	ADJ_H = -47 ;
 	BUTTONS.push( makeButton('Daenerys Targaryen' , [80+ADJ_H,290+ADJ_V] , 'danny') ) ;
 	BUTTONS.push( makeButton('A Doll' , [407+ADJ_H,290+ADJ_V] , 'doll') ) ;
-	BUTTONS.push( makeButton('Unicorn' , [500+ADJ_H,290+ADJ_V] , 'unicorn') ) ;
+	BUTTONS.push( makeButton('Unicorn' , [530+ADJ_H,290+ADJ_V] , 'unicorn') ) ;
 	BUTTONS.push( makeButton('Family' , [679+ADJ_H,290+ADJ_V] , 'family') ) ;
 	
 	ADJ_H = 18 ;
@@ -107,7 +107,7 @@ function setup()
 	
 	ADJ_H = 67 ;
 	BUTTONS.push( makeButton('Sydney Opera House' , [5+ADJ_H,560+ADJ_V] , 'sydney') ) ;
-	BUTTONS.push( makeButton('A Girl Doing Yoga' , [390+ADJ_H,560+ADJ_V] , 'yoga') ) ;
+	BUTTONS.push( makeButton('A Girl Doing Yoga' , [385+ADJ_H,560+ADJ_V] , 'yoga') ) ;
 }
 
 function epicycles(x, y, rotation, fourier) 
