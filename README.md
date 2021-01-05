@@ -16,6 +16,7 @@ The main page links to the second page where the user can select any of the avai
    <li> Keep the stencil's picture in the same directory/folder as the <em>FIND_CONTOUR.py</em> file. Put the name of the picture in its code and execute it. The contour-points will be written in a text document in JSON notation. Copy the entire content and assign it intact to a javascript variable and add this new .js file in the <em>LINE_DRAWINGS</em> folder. Besides, the new javascript file will have to be tethered to the second html page and a button will have to be designed to draw a <em>Fourier replica</em> of the picture.
 </ol>
 <em>FIND_CONTOUR.py</em> basically solves the Travelling Salesman problem in a naiive manner. Firstly, the pixels in the image are scanned in row-major fashion and the coordinates of the black-colored pixels are pushed in the list. This jumbled sequence of points is ordered by choosing any starting point and finding the nearest unvisited point. This process is continued iteratively until all the points are visited. Note that the contour-points obtained by this method might give some or quite a few stray lines in its replicated version; but still the picture finally created is recognizable and very similar to the picture selected in the first step of the procedure.
+
 <br>
 
 &nbsp;<img src = 'README_IMAGES/PIC02.png' width="400" height="470">&nbsp;&nbsp;&nbsp;&nbsp;<img src = 'README_IMAGES/PIC03.png' width="400" height="470">
