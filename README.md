@@ -17,4 +17,4 @@ The main page links to the second page where the user can select any of the avai
 </ol>
 <em>FIND_CONTOUR.py</em> basically solves the <em>Travelling Salesman problem</em> in a naiive greedy approach. Firstly, the pixels in the image are scanned in row-major fashion and the coordinates of the black-colored pixels are pushed in the list. This jumbled sequence of points is ordered by choosing any starting point and finding the nearest unvisited point. This process is continued iteratively until all the points are visited. Note that the contour-points obtained by this method might give some or quite a few stray lines in its replicated version; but still the picture finally created is recognizable and very similar to the picture selected in the first step of the procedure.<br>
 
-<img src = 'README_IMAGES/PIC02.png' width="410" height="470">&nbsp;&nbsp;&nbsp;&nbsp;<img src = 'README_IMAGES/PIC03.png' width="410" height="470">
+<p>&nbsp;<img src = 'README_IMAGES/PIC02.png' width="410" height="470">&nbsp;&nbsp;&nbsp;&nbsp;<img src = 'README_IMAGES/PIC03.png' width="410" height="470"></p>
